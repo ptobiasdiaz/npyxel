@@ -1,0 +1,33 @@
+# Artefactos de compilación (outputs en raíz del proyecto)
+*.bin
+*.cdt
+*.cpc
+*.prg
+*.tap
+*.com
+*.sfc
+*.adf
+*.lha
+*.exe
+
+# C generado por el transpilador (intermediate, en raíz)
+/pong.c
+/game.c
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Claude Code
+.claude/
+
+# Editor
+.vscode/
+*.swp
+*~
